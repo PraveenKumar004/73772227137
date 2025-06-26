@@ -21,7 +21,7 @@ app.post('/', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.send(arr);
+    res.send("Serving");
 });
 
 app.listen(5000, () => {
