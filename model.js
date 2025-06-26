@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 
-// Define the schema
 const urlSchema = new mongoose.Schema({
     fullurl: {
         type: String,
